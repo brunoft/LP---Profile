@@ -106,7 +106,7 @@ li{
 li a{
     display: inline-block;
     /* transition: background-color .5s ease-in-out; */
-    animation: icons 1s ease-out 0s 1 normal forwards;
+    animation: icons 2s ease-out 0s 1 normal forwards;
     
 }
 /* icons */
