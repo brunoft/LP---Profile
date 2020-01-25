@@ -66,21 +66,61 @@ body{
     justify-content: center;
 }
   
+/* h1 a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+    width: 1em;
+    height: 1em;
+    margin: 0 auto;
+    background-color: #303132;
+    font-size: 3em;
+    line-height: 3em;
+    color: transparent;
+    border-radius: 50%;
+    border: 0em solid #39F;
+    transition: all .15s ease-in-out;
+    animation: logo .25s ease-out 2.4s 1 normal forwards;
+  }
+  
+  @keyframes logo {
+    0%   { transform: rotate(25deg) scale(.01); opacity: 0; }
+    70%  { transform: scale(1.4); opacity: 1; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+  
+  h1 em {
+    position: absolute;
+    display: block;
+    top: .5em;
+    left: .4375em;
+    font-size: .5em;
+    line-height: 1em;
+    color: #FFF;
+  }
+  
+  h1 em:last-child {
+    top: .5em;
+    left: 1em;
+  }
+   */
 .circle{
     height: 200px;
     width: 200px;
-    background-color: rgb(40, 46, 50);
+    background-color: rgb(38, 41, 43);
     border-radius: 50%;
     background-image: url("image/profile.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
     position: relative;
     display: block;
     overflow: hidden;
     opacity: 0;
-    transition: all .15s ease-in-out;
-    animation: logo .25s ease-out 2.4s 1 normal forwards;
+    transition: all .0001s ease-in-out;
+    animation: logo .45s ease-out 2.4s 1 normal forwards;
 }
 @keyframes logo {
     0%   { transform: rotate(25deg) scale(.01); opacity: 0; }
@@ -109,6 +149,7 @@ li a{
     animation: icons 2s ease-out 0s 1 normal forwards;
     
 }
+
 /* icons */
 
 @keyframes icons {
