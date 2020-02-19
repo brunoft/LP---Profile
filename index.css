@@ -12,6 +12,7 @@ body{
 }
 .container{
     max-width: 1140px;
+    margin: 0px auto;
 }
 .content{
     display: flex;
@@ -65,46 +66,6 @@ body{
     display: flex;
     justify-content: center;
 }
-  
-/* h1 a {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    opacity: 0;
-    width: 1em;
-    height: 1em;
-    margin: 0 auto;
-    background-color: #303132;
-    font-size: 3em;
-    line-height: 3em;
-    color: transparent;
-    border-radius: 50%;
-    border: 0em solid #39F;
-    transition: all .15s ease-in-out;
-    animation: logo .25s ease-out 2.4s 1 normal forwards;
-  }
-  
-  @keyframes logo {
-    0%   { transform: rotate(25deg) scale(.01); opacity: 0; }
-    70%  { transform: scale(1.4); opacity: 1; }
-    100% { transform: scale(1); opacity: 1; }
-  }
-  
-  h1 em {
-    position: absolute;
-    display: block;
-    top: .5em;
-    left: .4375em;
-    font-size: .5em;
-    line-height: 1em;
-    color: #FFF;
-  }
-  
-  h1 em:last-child {
-    top: .5em;
-    left: 1em;
-  }
-   */
 .circle{
     height: 200px;
     width: 200px;
@@ -160,6 +121,7 @@ li a{
 footer{
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 .content-footer{
     display: flex;
@@ -167,7 +129,7 @@ footer{
     justify-content: flex-end; 
     color: #ffffff;
     height: 80px;
-    width: 100%;
+    padding-right: 24px;
 }
 
 @media only screen and (max-width: 600px)  {
