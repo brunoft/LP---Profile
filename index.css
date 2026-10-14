@@ -253,6 +253,9 @@ a:focus-visible {
 .language-options button {
     width: 100%;
     min-height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
     padding: 0 10px;
     border: 0;
     border-radius: 7px;
@@ -265,7 +268,7 @@ a:focus-visible {
     transition: background-color .2s ease, color .2s ease;
 }
 
-.language-options button span { display: inline-block; width: 1.7em; }
+.language-options button .language-flag { width: 20px; flex: 0 0 20px; }
 
 .language-options button[aria-pressed="true"] {
     background: rgba(50, 133, 255, .12);
